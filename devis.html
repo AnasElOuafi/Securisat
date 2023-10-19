@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>Decurisat - Société de sécurité</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Securisat - Société de sécurité</h1>
+    </header>
+    
+
+    <nav>
+        <a href="index.html"><i class="fas fa-home"></i>Acceuil</a>
+        <a href="service.html">Nos Services</a>
+        <a href="about.html">À propos</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <ul>
+            <li>Installation de systèmes de vidéosurveillance</li><br>
+            <li>Systèmes d'alarme pour la protection des biens</li><br>
+            <li>Contrôle d'accès et interphones</li><br>
+            <li>Monitoring et télésurveillance</li><br>
+        </ul>
+    </section>
+    
+    <section id="about">
+        <h2>À propos de Securisat</h2>
+        <p>Decurisat est une société spécialisée dans la sécurité, les caméras de surveillance et les systèmes d'alarme. Nous offrons des solutions complètes pour la protection des biens et des personnes.</p>
+        <p>Nos équipes d'experts sont formées pour installer, configurer et entretenir tous types de systèmes de sécurité, des caméras de surveillance haute définition aux systèmes d'alarme avancés.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Pour plus d'informations sur nos services ou pour toute demande spécifique, veuillez nous contacter :</p>
+        <ul>
+            <li>Téléphone : +216 73 244 582</li><br>
+            <li>Email : belkhiria.amor@planet.tn</li><br>
+            <li>Adresse : Av.la perle du sahel GP1<br>
+                Croisement khézama - Sousse</li>
+        </ul>
+    </section>
+
+    <section id="devis">
+        <h2>Obtenir un devis</h2>
+        <p>Avant de recevoir votre devis, veuillez remplir le formulaire ci-dessous :</p>
+        <form action="/generer-devis" method="POST">
+            <input type="text" name="nom" placeholder="Votre nom" required>
+            <input type="text" name="prenom" placeholder="votre prenom" required>
+            <input type="tel" name="telephone" placeholder="Votre numéro de téléphone" pattern="[0-9]{8}" title="Veuillez entrer un numéro de téléphone valide (8 chiffres)" required>
+            <input type="email" name="email" placeholder="Votre adresse e-mail" required>
+            <textarea name="message" placeholder="Message supplémentaire"></textarea>
+            <input type="submit" value="Envoyer la demande de devis">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Securisat. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
